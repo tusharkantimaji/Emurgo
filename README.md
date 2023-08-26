@@ -6,6 +6,8 @@ Technical Requirement.
 3. pip install request-cache
 4. If anything more is required, Just run the command `pip install <ModuleName>`
 
+Explanation Video - https://drive.google.com/file/d/16aN879qv4BfXmsSCmH-fX3gOOHaCF5aT/view?usp=sharing
+
 
 As of now we are supporting couple of Features.
 1. Domain/getNews/<NumberOfNews(1-100)>
@@ -16,3 +18,4 @@ As of now we are supporting couple of Features.
         This URL is same like point 2, but, it will search on the title
 3. Domain/searchNew/<SearchParam>/<NumberOfNews(1-100)>/description
         This URL is same like point 2, but, it will search on the description
+
