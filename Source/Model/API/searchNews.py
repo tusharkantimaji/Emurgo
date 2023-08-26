@@ -1,7 +1,3 @@
-from flask import Flask, jsonify
-import json
-import urllib.request
-# from ..NewsResponse import NewsRespnse
 from requests_cache import CachedSession
 
 

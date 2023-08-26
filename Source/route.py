@@ -1,12 +1,8 @@
-from flask import Flask, jsonify, request
+from flask import Flask
 from Model.API.getNews import *
 from Model.API.searchNews import *
 from Model.apiKey import ApiKey
-from redis import Redis
 
-from typing import Final
-from dataclasses import dataclass
-from requests_cache import CachedSession
 
 
 app = Flask(__name__)
